@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#main {
+  display: flex;
+}
+
+#mainBackground {
+  display: flex;
+  flex-direction: column;
+
+  background-image: url(/images/desktop-image-hero-1.jpg);
+  align-content: center;
+  padding: 20px;
+  width: 58vw;
+  height: 74vh;
+}
+
+ol {
+  display: flex;
+  align-items: center;
+}
+ol li {
+  display: flex;
+  margin: 20px;
+  color: white;
+}
+#aside {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: 55vh;
+  padding: 80;
+}
+#aside p {
+}
+#parentBtns {
+  display: flex;
+  flex-direction: column;
+  margin: 30;
+}
+
+#btns {
+  display: flex;
+  padding: 20;
+  margin-bottom: 40;
+  float: left;
+}
+button {
+  background-color: black;
+  display: flex;
+  float: left;
+  width: 40px;
+  height: 25px;
+  margin: 2;
+}
+#parentBtns img {
+  width: 20px;
+  height: 20px;
+}
+#footer {
+  display: flex;
+}
+#mainBackgroundTwo {
+  display: flex;
+  flex-direction: column;
+
+  background-image: url(/images/desktop-image-hero-2.jpg);
+  align-content: center;
+  padding: 20px;
+  width: 58vw;
+  height: 74vh;
+}
+#mainBackgroundThree {
+  display: flex;
+  flex-direction: column;
+
+  background-image: url(/images/desktop-image-hero-3.jpg);
+  align-content: center;
+  padding: 20px;
+  width: 58vw;
+  height: 74vh;
+}
